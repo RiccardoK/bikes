@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+    padding-top: 100px;
+}
+footer {
+    padding: 30px 0;
+}
+
+/*
+ * Custom styles
+ */
+/* #######Stylingnavbar ####### */
+.navbar-collapse a {
+  font-family:Raleway,Open-sans,Arial,sans-serif
+  /*font-size: 30px;*/
+}
+.nav-item {
+
+font-size: 20px;
+}
+
+.navbar-collapse ul{
+  padding-right:40px
+}
+
+.navbar-collapse a{
+  text-transform:uppercase
+}
+/*########END NAV BAR###########*/
+
