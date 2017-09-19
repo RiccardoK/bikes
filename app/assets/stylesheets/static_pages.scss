@@ -58,8 +58,8 @@ body  {
 }
  
 .nav a.active {
-  background-color: #fff;
-  color: #444;
+  background-color: #005f5f;
+  color: #fff;
   cursor: default;
 }
  
@@ -78,7 +78,7 @@ body  {
   }
   .nav ul {
     overflow: auto;
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
   }
   .nav {
@@ -92,12 +92,13 @@ body  {
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
+
 	width: 100%;
 	text-align: left;
 	font: Raleway,Open-sans,Arial,sans-serif;
+  padding: 45px 50px;
+  //margin-top: 80px;
 
-	padding: 45px 50px;
-	margin-top: 80px;
 }
 
 .footer-d .footer-left p{
