@@ -9,3 +9,4 @@
 
 Product.create(name: "seed-generated product", description: "I also created this product without using the HTML form!")
 
+Order.create(username: "Hans King", product: "Bike 2 yb", price: "111,12", lastname: "kackimann")
