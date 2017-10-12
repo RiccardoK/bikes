@@ -8,8 +8,8 @@ $primary-color: #333;
 body  {
   font: 100% $font-stack;
   color: $primary-color;
+  padding-top: 70px;
 }
-
 
 
 
@@ -88,6 +88,17 @@ body  {
 }
  
 
+
+.footer-d .footer-left p.footer-links .footer-right 
+{
+position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+}
+
+
 .footer-d{
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -105,6 +116,7 @@ body  {
 	color:  #8f9296;
 	font-size: 14px;
 	margin: 0;
+
 }
 
 /* Footer links */
