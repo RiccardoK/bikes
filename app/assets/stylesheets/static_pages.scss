@@ -12,26 +12,19 @@ body  {
   padding-bottom : 60px;
 }
 
+.product_grid_box {
+    background-color: #ccc;
+    border : 1px solid grey;
+    padding: 20px;
+    color: #000000 !important;
+    font-size: 16px;
+    line-height: 28px;
+    min-height: 174px;
+    position: relative;
+}
 
+.frame-image{border : 1px solid grey}
 
-//nav {
-//  ul {
-//    margin: 0;
-//    padding: 0;
-//    list-style: none;
-//}
-
-// li { display: inline-block; }
-
-//  a {
-//    display: block;
-//  padding: 6px 12px;
-//    text-decoration: none;
-// }
-//}
-
-
- 
 .nav ul {
   list-style: none;
   background-color: #444;
