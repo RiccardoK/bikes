@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+Display all oldusers` information
+
+<h1>Orders</h1>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+     <% cache @oldusers do %>
+      <%= render @oldusers %>
+    <% end %>
+  </div>
+</div>
+
+
+  <button type="button" class="new_olduser" data-toggle="tooltip"  title="New Olduser"><%= link_to 'New Olduser', new_olduser_path %>
+  </button>
+ <%= link_to 'Back', new_olduser_path, class:"btn btn-default" %>
+
+

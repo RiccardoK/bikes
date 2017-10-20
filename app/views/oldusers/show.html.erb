@@ -1,0 +1,30 @@
+
+ <p id="notice"><%= notice %></p>
+
+
+
+<h1>SHOW OLDUSER</h1>
+
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th><h3>Name</h3></th>
+      <th><h3>lastname</h3></th>
+      <th><h3>email</h3></th>
+   
+      <th colspan="5"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+        <td class="firstname" width="20%"><%= @olduser.firstname %></td>
+        <td class="lastname" width="20%"><%= @olduser.lastname %></td>
+        <td class="email" width="20%"><%= @olduser.email %></td>
+        <td>
+      </tr>
+       <%= link_to 'Back', oldusers_path, class:"btn btn-default" %>
+  <%= link_to 'Edit', edit_olduser_path(@olduser), class:"btn btn-default" %>
+  </tbody>
+</table>

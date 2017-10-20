@@ -1,0 +1,19 @@
+<% cache olduser do %>
+
+	<div class="col-xs-12 col-sm-4 col-md-3">
+	  
+	        <div class="olduser_grid_box">
+		        <h3><%= link_to(olduser.firstname,olduser_path(olduser)) %></h3>
+		        <p><strong>Firstname: </strong><%= olduser.firstname %></p>
+		        <p><strong>Lastname: </strong>$<%= olduser.lastname %></p>
+		        <%= link_to ('<u>More Details</u>').html_safe, olduser_path(olduser) %>
+	    	</div>
+
+        <%= link_to 'Show /', olduser %>
+    	<%= link_to 'Edit /', edit_olduser_path(olduser) %>
+     	<%= link_to 'Destroy', olduser, method: :delete, data: { confirm: 'Are you sure?' } %>
+     	<br><br><br><br>
+
+	</div><!-- /col -->
+
+<% end %>

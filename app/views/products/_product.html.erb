@@ -3,11 +3,11 @@
 <% cache product do %>
 
 	<div class="col-xs-12 col-sm-4 col-md-3">
-	  	<% if product.image_url != nil %>
-	      	<div class="frame-image">
-	       		 <%= image_tag(product.image_url, class: "img-responsive product", height: '250',width: '320') %>
-			</div>
-		<% end %>
+			  	<% if product.image_url != nil %>
+			      	<div class="frame-image">
+			       		 <%= image_tag(product.image_url, class: "img-responsive product", height: '250',width: '320') %>
+					</div>
+				<% end %>
 	        <div class="product_grid_box">
 		        <h3><%= link_to(product.name,product_path(product)) %></h3>
 		        <p><strong>Color: </strong><%= product.color %></p>
